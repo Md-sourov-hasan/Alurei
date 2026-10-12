@@ -1,0 +1,142 @@
+[
+    {
+        "id": "wake-up-345070b8-eb58-418a-97ce-372786e29937",
+        "type": "WAKE_UP",
+        "title": "Wake up",
+        "startTime": "07:00",
+        "endTime": null,
+        "category": null,
+        "mode": null,
+        "libraryRef": null
+    },
+    {
+        "id": "84a7aa73-1868-437a-94e8-8373946682e9",
+        "type": "SCHEDULE",
+        "category": "RECIPE",
+        "mode": "CUSTOM",
+        "title": "Breakfast",
+        "description": "Morning Time",
+        "startTime": "07:20",
+        "endTime": "07:30",
+        "libraryRef": null
+    },
+    {
+        "id": "school-078c6c44-0067-4860-9d50-52fea8f5962f",
+        "type": "SCHOOL",
+        "title": "School time",
+        "startTime": "08:30",
+        "endTime": "10:30",
+        "category": null,
+        "mode": null,
+        "libraryRef": null
+    },
+    {
+        "id": "81b9d4c1-ae76-4e81-b270-b95bf60853cc",
+        "type": "SCHEDULE",
+        "category": "OTHER",
+        "mode": "CUSTOM",
+        "title": "Other act",
+        "description": "Test",
+        "startTime": "10:30",
+        "endTime": "10:35",
+        "libraryRef": null
+    },
+    {
+        "id": "e6f4ba41-e178-4303-899e-26b09f07b575",
+        "type": "SCHEDULE",
+        "category": "RECIPE",
+        "mode": "LIBRARY",
+        "title": "Mini Chicken Meatballs",
+        "description": "bbb",
+        "startTime": "13:52",
+        "endTime": "14:25",
+        "libraryRef": {
+            "type": "recipe",
+            "id": "4af17235-7b6f-45bb-9112-b403c90f8cc1",
+            "title": "Mini Chicken Meatballs",
+            "recipeMealType": "LUNCH",
+            "imageUrl": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=500&q=80"
+        }
+    },
+    {
+        "id": "18c7b619-cc7e-442f-a414-cff9a96e2d0f",
+        "type": "SCHEDULE",
+        "category": "HOME_STUDY",
+        "mode": "LIBRARY",
+        "title": "Water Transfer Station",
+        "description": "cccc",
+        "startTime": "14:30",
+        "endTime": "15:00",
+        "libraryRef": {
+            "type": "activity",
+            "id": "1c7f1582-2ff3-494d-8f83-6680eab5e234",
+            "title": "Water Transfer Station",
+            "activityType": "LEARNING_DEVELOPMENT",
+            "imageUrl": "https://images.unsplash.com/photo-1536640712-4d4c36ef0e42?w=500&q=80"
+        }
+    },
+    {
+        "id": "bef34d5b-9d6d-41d6-b9a6-4066824626b7",
+        "type": "SCHEDULE",
+        "category": "ACTIVITY",
+        "mode": "CUSTOM",
+        "title": "Morning Walk",
+        "description": "aaa",
+        "startTime": "15:00",
+        "endTime": "15:30",
+        "libraryRef": null
+    },
+    {
+        "id": "ee173de8-94e8-4491-9265-9e5e0d7af0a1",
+        "type": "SCHEDULE",
+        "category": "HOME_STUDY",
+        "mode": "CUSTOM",
+        "title": "Home Work",
+        "description": "Mathmatics",
+        "startTime": "15:57",
+        "endTime": "16:20",
+        "libraryRef": null
+    },
+    {
+        "id": "4798185e-bbb5-4d67-9848-e97986e3062b",
+        "type": "SCHEDULE",
+        "category": "NAP",
+        "mode": "CUSTOM",
+        "title": "Power Nap",
+        "description": "ABC",
+        "startTime": "16:20",
+        "endTime": "16:35",
+        "libraryRef": null
+    },
+    {
+        "id": "nap-d54d1e9f-6e3a-4273-9904-040685f23ab8",
+        "type": "NAP",
+        "title": "Nap",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "category": "NAP",
+        "mode": null,
+        "libraryRef": null
+    },
+    {
+        "id": "f65392a1-5491-4301-a3e0-8348f8ac1305",
+        "type": "SCHEDULE",
+        "category": "BEDTIME",
+        "mode": "CUSTOM",
+        "title": "Sleep",
+        "description": "Sleep",
+        "startTime": "21:45",
+        "endTime": "22:45",
+        "libraryRef": null
+    },
+    {
+        "id": "bedtime-345070b8-eb58-418a-97ce-372786e29937",
+        "type": "BEDTIME",
+        "title": "Bedtime",
+        "startTime": "23:06",
+        "endTime": null,
+        "category": "BEDTIME",
+        "mode": null,
+        "libraryRef": null
+    }
+]
