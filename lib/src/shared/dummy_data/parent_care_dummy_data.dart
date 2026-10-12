@@ -1,0 +1,237 @@
+import 'package:alurei/src/features/roles/parent/care/domain/entities/care_module_item.dart';
+
+class ParentCareDummyData {
+  ParentCareDummyData._();
+
+  static List<CareModuleItem> get allModules => const [
+        CareModuleItem(
+          id: '57e2239f-612a-41af-808a-febb1a49f142',
+          title: 'Caregiver professionalism',
+          durationText: '50m',
+          coinsText: '8 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop',
+          category: 'OTHER',
+          childTarget: 'Eve',
+          childId: 'f807ff9a-593a-46db-b97a-79e5f8813202',
+          isBookmarked: false,
+          status: 'completed',
+          progressPercentage: 1,
+          progressText: '100% Complete',
+        ),
+        CareModuleItem(
+          id: 'a20019bf-ae40-41cf-8f8e-73e757ccf6a3',
+          title: 'Toileting readiness',
+          durationText: '1h 5m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop',
+          category: 'HEALTH_HYGIENE',
+          childTarget: 'Eve',
+          childId: 'f807ff9a-593a-46db-b97a-79e5f8813202',
+          isBookmarked: false,
+          status: 'completed',
+          progressPercentage: 1,
+          progressText: '100% Complete',
+        ),
+        CareModuleItem(
+          id: 'b86fa472-121e-4cad-9a40-b33b31e1a408',
+          title: 'Language through daily care',
+          durationText: '1h 0m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1484820540004-14229fe36ca4?q=80&w=1200&auto=format&fit=crop',
+          category: 'COMMUNICATION',
+          childTarget: 'Eve',
+          childId: 'f807ff9a-593a-46db-b97a-79e5f8813202',
+          isBookmarked: false,
+          status: 'completed',
+          progressPercentage: 1,
+          progressText: '100% Complete',
+        ),
+        CareModuleItem(
+          id: '3a2adce4-3ad8-4221-b816-058a595f2e2c',
+          title: 'Outdoor safety basics',
+          durationText: '50m',
+          coinsText: '8 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=1200&auto=format&fit=crop',
+          category: 'CHILD_SAFETY',
+          childTarget: 'Liam',
+          childId: '23b101aa-4efa-45df-bcdc-bd39f6f10b18',
+          nannyUserId: '10db3fa8-cabc-4faf-9142-53b9c87ddca3',
+          isBookmarked: false,
+          status: 'all',
+        ),
+        CareModuleItem(
+          id: '3b644cf2-af78-4b87-bfd4-3cbd7474d855',
+          title: 'Managing picky eating',
+          durationText: '1h 10m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?q=80&w=1200&auto=format&fit=crop',
+          category: 'NUTRITION_FEEDING',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: '52a16718-5690-4165-af75-ecceec856e93',
+          title: 'Morning transition support',
+          durationText: '45m',
+          coinsText: '8 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1200&auto=format&fit=crop',
+          category: 'SLEEP_ROUTINES',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: '33a63819-41c8-40cd-9dc8-0150695a2031',
+          title: 'Health and hygiene habits',
+          durationText: '1h 5m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1584744982491-665216d95f8b?q=80&w=1200&auto=format&fit=crop',
+          category: 'HEALTH_HYGIENE',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: 'f966104e-ba5d-41f5-9bdc-5effd9179689',
+          title: 'Communication with parents',
+          durationText: '55m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop',
+          category: 'COMMUNICATION',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: 'c5a885c0-3460-42ed-a631-44f14f6681e4',
+          title: 'Play and learning moments',
+          durationText: '1h 20m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=1200&auto=format&fit=crop',
+          category: 'PLAY_LEARNING',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: '388da482-ff34-4031-8715-63fd33a9d80c',
+          title: 'First aid readiness',
+          durationText: '1h 35m',
+          coinsText: '15 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop',
+          category: 'FIRST_AID',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: 'e5ab43aa-178d-4628-b2a3-3592cd1dec2a',
+          title: 'Child safety at home',
+          durationText: '1h 0m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop',
+          category: 'CHILD_SAFETY',
+          childTarget: 'Liam',
+          childId: '23b101aa-4efa-45df-bcdc-bd39f6f10b18',
+          nannyUserId: '10db3fa8-cabc-4faf-9142-53b9c87ddca3',
+          isBookmarked: false,
+          status: 'all',
+        ),
+        CareModuleItem(
+          id: 'd08db9b0-a460-4d28-8be7-5c7e59ff8034',
+          title: 'Sleep routine basics',
+          durationText: '1h 15m',
+          coinsText: '10 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=1200&auto=format&fit=crop',
+          category: 'SLEEP_ROUTINES',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: true,
+          status: 'in_progress',
+          progressPercentage: 0.65,
+          progressText: '65% Complete',
+        ),
+        CareModuleItem(
+          id: '473eb8f4-e69f-49bd-8a6d-2ac2d677102c',
+          title: 'How to feed a baby',
+          durationText: '1h 53m',
+          coinsText: '15 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=1200&auto=format&fit=crop',
+          category: 'NUTRITION_FEEDING',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: true,
+          status: 'in_progress',
+          progressPercentage: 0.60,
+          progressText: '60% Complete',
+        ),
+        CareModuleItem(
+          id: '0262c7ec-8622-40a6-b01d-230e48d506f8',
+          title: "Handling child's behavior",
+          durationText: '2h 10m',
+          coinsText: '15 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1200&auto=format&fit=crop',
+          category: 'CHILD_DEVELOPMENT',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: true,
+          status: 'in_progress',
+          progressPercentage: 0.60,
+          progressText: '60% Complete',
+        ),
+        CareModuleItem(
+          id: 'fccf71ea-88be-41e7-bffe-df1dd4ed9cdf',
+          title: 'Feeding & Mealtimes',
+          durationText: '1h 53m',
+          coinsText: '15 Coins',
+          imageUrl:
+              'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop',
+          category: 'NUTRITION_FEEDING',
+          childTarget: 'Ava',
+          childId: '388c0fd2-8869-4ef3-96ec-bc6f293805bc',
+          isBookmarked: false,
+          status: 'all',
+        ),
+      ];
+
+  static List<CareModuleItem> get suggestedModules => allModules;
+
+  static List<CareModuleItem> get inProgressModules =>
+      allModules.where((m) => m.status == 'in_progress').toList();
+
+  static List<CareModuleItem> get completedModules =>
+      allModules.where((m) => m.status == 'completed').toList();
+}
